@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-15T16:16:29 IST" name="Default suite" finished-at="2021-10-15T16:17:06 IST" duration-ms="36981">
+    <groups>
+      <group name="Regression">
+        <method signature="MailTests.writeMailTest(java.util.Hashtable)[pri:0, instance:TestCases.MailTests@2d0399f4]" name="writeMailTest" class="TestCases.MailTests"/>
+      </group> <!-- Regression -->
+      <group name="LoginTest">
+        <method signature="MailTests.writeMailTest(java.util.Hashtable)[pri:0, instance:TestCases.MailTests@2d0399f4]" name="writeMailTest" class="TestCases.MailTests"/>
+      </group> <!-- LoginTest -->
+    </groups>
+    <test started-at="2021-10-15T16:16:29 IST" name="Default test" finished-at="2021-10-15T16:17:06 IST" duration-ms="36981">
+      <class name="TestCases.MailTests">
+        <test-method signature="writeMailTest(java.util.Hashtable)[pri:0, instance:TestCases.MailTests@2d0399f4]" started-at="2021-10-15T16:16:30 IST" name="writeMailTest" data-provider="getOpenPortfolioTestData" finished-at="2021-10-15T16:17:06 IST" duration-ms="35683" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{body=Type Here Successfully, Subject=Welcome Mail, MailId=ajayingle97@rediffmail.com, Password=Zensar@123, UserName=ajayingle97@rediffmail.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- writeMailTest -->
+        <test-method is-config="true" signature="flushReports()[pri:0, instance:TestCases.MailTests@2d0399f4]" started-at="2021-10-15T16:17:06 IST" name="flushReports" finished-at="2021-10-15T16:17:06 IST" duration-ms="569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- TestCases.MailTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
